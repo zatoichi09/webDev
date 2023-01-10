@@ -54,6 +54,7 @@ nav ul li:hover::after{
 
 
 /*---follow---*/
+
 .follow .text{
     padding-top: 60px;
 }
@@ -503,7 +504,7 @@ nav ul li:hover::after{
     right: 0;
     left: 0;
     bottom: 0;
-
+    background-size: cover;
 
 }
 .endNote h1{
