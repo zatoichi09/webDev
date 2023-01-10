@@ -284,12 +284,16 @@ nav ul li:hover::after{
     font-size: 40px;
     font-weight: 400;
     text-align: center;
-    text-decoration: underline solid 7px #8763c0 ;
+    border-bottom: 1px rgb(103, 103, 103) ;
 }
 .teachers img{
     width: 300px;
-    padding-right: 60px;
-    padding-bottom: 30px;
+    margin-right: 60px;
+    margin-bottom: 30px;
+}
+.teachers img:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.237);
+    transition: 0.7s;
 }
 .teachers ul li{
     list-style: none;
@@ -299,14 +303,19 @@ nav ul li:hover::after{
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
     font-size: 30px;
-    color: #ffff;
-    background-color: #000;
+    color: #000;
+    background-color: #fff;
     padding: 8px 25px;
     border: 2px black solid;
     border-radius: 8px;
     margin: 40%;
     text-decoration: none;
     text-overflow: ellipsis;
+}
+.teacher .button:hover{
+    color: #fff;
+    background-color: #000;
+    transition: 0.7s;
 }
 
 
@@ -336,10 +345,6 @@ nav ul li:hover::after{
 .reachUs img{
     width: 50px;
 }
-
-
-
-/*--forms--*/
 .forms{
     padding: 0 10% 0 10%;
 }
@@ -376,9 +381,14 @@ nav ul li:hover::after{
 }
 .forms .details .submit{
     font-size: 15px;
-    background: #000;
-    color: #fff;
+    background: rgb(211, 211, 211);
+    color: rgb(0, 0, 0);
     border-color: #000;
+}
+.forms .details .submit:hover{
+    background-color: #000;
+    color: #fff;
+    transition: 0.7s;
 }
 
 
